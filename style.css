@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAG2ErAMPj4wDh8vIAv+DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzMzMzMwAAAAAAAAAAAzMzMzMzMzMwAAAAAAAAADMzMzMzMzMzMwAAAAAAAAMzMzMzMzMzMzRAAAAAAAADMzMzMzMzMzNEQAAAAAAAAzMzMzMzMzM0REAAAAAAAAMzMzMzMzMzRERAAAAAAAADMzMzMzMzNEREQAAAAAAAAzMzMzMzM0REREAAAAAAAAMzMzMzMzRERERAAAAAAAADMzMzMzNEREREQAAAAAAAADMzMzM0RERERAAAAAAAAAADMzMzREREREAAAAAAAAAAADMzNERERCQAAAAAAAAAAAADMyIiIiIgAAAAAAABERERERERERERERERERAAERERERERERERERERERERARIiIRERERIhEREREREREREiIiERERIiIhERERESIRERIiIhERFCIiJBERERIiIRERIiIRERIiIiIRERESIiERERIhERESIiIiEREREiIhERERERERESIiIREREREiEREBERERERESIhEREREREREQABERERERERERERERERERAAABEREiERERESIREREREAAAABESIiERERIiIREREQAAAAABEiJBERESIiERERAAAAAAABEiEREREiIhEREAAAAAAAABEREREREiEREQAAAAAAAAAAEREREREREQAAAAAAAAAAAAERERERERAAAAAAD/gAH//wAA//4AAH/8AAA//AAAP/wAAD/8AAA//AAAP/wAAD/8AAA//AAAP/4AAH//AAD//4AB///AA//AAAADgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAHAAAAD4AAAB/AAAA/4AAAf/AAAP/4AAH//gAH//8AD/w=="),
+    auto;
+}
+
+header {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  height: 20vh;
+  width: 50vw;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Lily Script One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(0, 81, 255);
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url("./imagens/disney-banner 1.png");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+}
+
+main figure {
+  margin: 40px 0 40px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.section-footer {
+  display: flex;
+  height: 20vh;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Actor", sans-serif;
+}
+
+footer figure {
+  display: flex;
+  width: 25vh;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
